@@ -1,0 +1,73 @@
+div.nav{
+    
+    height: 30px;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+    background-image: url(./Screenshot\ 2024-09-18\ 000752.png);
+    
+    
+}
+
+div.main{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+div.filelist,div.filedetails{
+    display: block;
+    margin-top: 10px;
+    background-color: #bcced980;
+    padding: 10px;
+    padding-top: 8px;
+    border-radius: 10px;
+    
+}
+div.filedetails{
+    margin-left: 30px;
+}
+div.filelist:hover{
+    background-color: #bcced9;
+}
+
+span.num{
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 5px;
+}
+button{
+    
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #bcced9;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #97a4ac;
+}
+div.loading{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    background-color: #97a4ac30;
+    padding: 30px;
+    border-radius: 5px;
+    
+}
